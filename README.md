@@ -2,6 +2,8 @@
 
 A comprehensive Laravel-based interview management system that allows admins and reviewers to create interviews with questions, and candidates to record and upload video answers for review.
 
+**GitHub Repository:** [https://github.com/sagarkhunt/hireflix.git](https://github.com/sagarkhunt/hireflix.git)
+
 ## 🎯 **Complete System Flow & Implementation**
 
 ### **1. User Registration & Authentication Flow**
@@ -79,7 +81,7 @@ Login → Browse Interviews → Start Interview → Upload Videos → Add Notes 
 1. **Clone and Setup**
 
     ```bash
-    git clone <repository-url>
+    git clone https://github.com/sagarkhunt/hireflix.git
     cd hireflix
     composer install
     npm install
