@@ -127,22 +127,42 @@ Login → Browse Interviews → Start Interview → Upload Videos → Add Notes 
 
 -   **Email:** admin@hireflix.com
 -   **Password:** password
+-   **Name:** Admin User
 -   **Access:** Full system control, create/edit interviews, review all submissions
 
 ### **Reviewer Account**
 
 -   **Email:** reviewer@hireflix.com
 -   **Password:** password
+-   **Name:** Reviewer User
 -   **Access:** Create interviews, review submissions, score candidates
 
 ### **Candidate Accounts**
 
 -   **Email:** candidate@hireflix.com
 -   **Password:** password
+-   **Name:** Candidate User
+-   **Access:** Browse available interviews, submit video answers, view feedback
+
 -   **Email:** john@example.com
 -   **Password:** password
+-   **Name:** John Doe
+-   **Access:** Browse available interviews, submit video answers, view feedback
+
 -   **Email:** jane@example.com
 -   **Password:** password
+-   **Name:** Jane Smith
+-   **Access:** Browse available interviews, submit video answers, view feedback
+
+### **Quick Test Summary**
+
+| Role      | Email                  | Password | Name           | Capabilities                          |
+| --------- | ---------------------- | -------- | -------------- | ------------------------------------- |
+| Admin     | admin@hireflix.com     | password | Admin User     | Full system control                   |
+| Reviewer  | reviewer@hireflix.com  | password | Reviewer User  | Create interviews, review submissions |
+| Candidate | candidate@hireflix.com | password | Candidate User | Take interviews, submit answers       |
+| Candidate | john@example.com       | password | John Doe       | Take interviews, submit answers       |
+| Candidate | jane@example.com       | password | Jane Smith     | Take interviews, submit answers       |
 
 ## 📋 **Complete Usage Guide**
 
@@ -246,6 +266,7 @@ Login → Browse Interviews → Start Interview → Upload Videos → Add Notes 
 -   **2 Sample Interviews:** Software Developer & Marketing Manager
 -   **16 Sample Questions:** 8 questions per interview
 -   **Complete Database Structure:** All tables with proper relationships
+-   **All users have password:** "password" for easy testing
 
 ## 🚨 **Known Limitations**
 
